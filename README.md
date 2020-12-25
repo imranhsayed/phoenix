@@ -1,2 +1,2 @@
-# phoenix
-An Experimental based Theme - Full Site Editing
+# Phoenix - WordPress Theme
+An Experimental block based Theme

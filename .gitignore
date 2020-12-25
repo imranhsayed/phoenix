@@ -21,3 +21,8 @@ node_modules/
 *.log
 *.sql
 *.sqlite
+
+.idea
+.DS_Store
+**/.DS_Store
+npm-debug.log

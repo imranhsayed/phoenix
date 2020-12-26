@@ -1,4 +1,4 @@
-.entry-content {
+.site-content {
 
 	> * {
 		margin: $margin-top auto $margin-bottom auto;
@@ -23,4 +23,24 @@
 	}
 }
 
+.has-avatars {
+	.wp-block-latest-comments__comment {
+		display: inline-flex;
+		margin: 10px;
+
+		footer.wp-block-latest-comments__comment-meta {
+			margin-left: 0;
+		}
+	}
+}
+
+.wp-block-categories-list {
+	margin-bottom: 28px;
+	list-style: none;
+	margin-top: 10px;
+
+	.cat-item {
+		padding-bottom: 10px;
+	}
+}
 

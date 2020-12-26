@@ -1,0 +1,7 @@
+.site-header {
+	padding: 0 $padding-right 0 $padding-left;
+
+	@include mq( large ) {
+		padding: 1.25em 2.375em;
+	}
+}

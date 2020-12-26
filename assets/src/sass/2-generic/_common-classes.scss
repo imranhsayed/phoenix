@@ -9,3 +9,16 @@
 .visible {
 	visibility: visible;
 }
+
+.phoenix-wrap {
+	max-width: $site_width;
+	padding: 0 $padding-right 0 $padding-left;
+}
+
+.phoenix-main-content {
+	.wp-block-query-loop {
+		@include mq( $until: small ) {
+			margin-left: 0;
+		}
+	}
+}

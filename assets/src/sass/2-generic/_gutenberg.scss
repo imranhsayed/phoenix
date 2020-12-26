@@ -1,17 +1,26 @@
-.home-page-wrap {
-	.entry-content {
+.entry-content {
 
-		> * {
-			margin: $margin-top auto $margin-bottom auto;
-		}
+	> * {
+		margin: $margin-top auto $margin-bottom auto;
+	}
 
-		> *:not(.alignfull) {
-			max-width: $site_width;
-			padding: 0 $padding-right 0 $padding-left;
-		}
+	> *:not(.alignfull) {
+		max-width: $site_width;
+		padding: 0 $padding-right 0 $padding-left;
+	}
 
-		> .alignwide {
-			max-width: $wide_width;
+	> .alignwide {
+		max-width: $wide_width;
+	}
+}
+
+
+.has-text-color {
+	&.has-black-color {
+		a {
+			color: $black;
 		}
 	}
 }
+
+

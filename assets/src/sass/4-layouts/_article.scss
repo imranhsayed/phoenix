@@ -1,0 +1,17 @@
+.entry-header {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 36px 0;
+
+	.wp-block-post-author {
+		align-items: center;
+		margin-right: 10px;
+	}
+}
+
+.wp-block-post-author__avatar {
+	.avatar {
+		border-radius: 50%;
+	}
+}

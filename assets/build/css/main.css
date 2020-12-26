@@ -372,12 +372,8 @@ figure {
 .visible {
   visibility: visible; }
 
-.phoenix-wrap {
-  max-width: 1140px;
-  padding: 0 15px 0 15px; }
-
 @media (max-width: 37.49em) {
-  .phoenix-main-content .wp-block-query-loop {
+  .site-content .wp-block-query-loop {
     margin-left: 0; } }
 
 html {
@@ -780,6 +776,13 @@ hr {
     font-size: 18px;
     letter-spacing: 12px;
     padding-left: 12px; }
+
+.wp-block-latest-comments .wp-block-latest-comments__comment-author,
+.wp-block-latest-comments .wp-block-latest-comments__comment-link {
+  color: #0192cc; }
+
+.wp-block-categories__list a {
+  color: #0192cc; }
 
 /*-----------
 	Media

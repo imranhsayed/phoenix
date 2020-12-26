@@ -468,3 +468,16 @@ hr {
 		padding-left: 12px;
 	}
 }
+
+.wp-block-latest-comments {
+	.wp-block-latest-comments__comment-author,
+	.wp-block-latest-comments__comment-link {
+		color: $color__link;
+	}
+}
+
+.wp-block-categories__list {
+	a {
+		color: $color__link;
+	}
+}

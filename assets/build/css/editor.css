@@ -504,5 +504,12 @@ hr {
     letter-spacing: 12px;
     padding-left: 12px; }
 
+.wp-block-latest-comments .wp-block-latest-comments__comment-author,
+.wp-block-latest-comments .wp-block-latest-comments__comment-link {
+  color: #0192cc; }
+
+.wp-block-categories__list a {
+  color: #0192cc; }
+
 
 /*# sourceMappingURL=editor.css.map*/

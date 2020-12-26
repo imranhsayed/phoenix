@@ -69,13 +69,8 @@ function phoenix_setup_theme() {
 	 */
 	add_theme_support( 'post-thumbnails' );
 
-	add_theme_support( 'post-formats', array( 'aside', 'gallery' ) );
-
-
-	/**
-	 * Register image sizes.
-	 */
-	add_image_size( 'featured-thumbnail', 350, 233, true );
+	// Set default Post Thumbnail size.
+	set_post_thumbnail_size( 800, 500, true );
 
 
 	// Add theme support for selective refresh for widgets.

@@ -1,4 +1,6 @@
 .site-header {
+	display: flex;
+	align-items: center;
 	padding: 0 $padding-right 0 $padding-left;
 
 	@include mq( large ) {

@@ -500,7 +500,7 @@ a {
     outline-offset: -2px; }
   a:hover,
   a a:active {
-    color: #38affd;
+    color: #0183c6;
     text-decoration: underline;
     outline: 0; }
 
@@ -830,7 +830,17 @@ object {
   .wp-block-categories-list .cat-item {
     padding-bottom: 10px; }
 
+.wp-block-social-links {
+  margin-bottom: 28px; }
+
+.wp-block-post-title a {
+  color: #333; }
+  .wp-block-post-title a:hover {
+    color: #0183c6; }
+
 .site-header {
+  display: flex;
+  align-items: center;
   padding: 0 15px 0 15px; }
   @media (min-width: 64em) {
     .site-header {

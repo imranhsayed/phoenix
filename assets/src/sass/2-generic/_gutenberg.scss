@@ -44,3 +44,16 @@
 	}
 }
 
+.wp-block-social-links {
+	margin-bottom: 28px;
+}
+
+.wp-block-post-title {
+	a {
+		color: $dark-gray-200;
+
+		&:hover {
+			color: $color__link-hover;
+		}
+	}
+}

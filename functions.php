@@ -168,3 +168,10 @@ function phoenix_setup_theme() {
 }
 
 add_action( 'after_setup_theme', 'phoenix_setup_theme' );
+
+function phoenix_register_styles() {
+	wp_register_style( 'main-css', PHOENIX_BUILD_CSS_URI . '/main.css', [], filemtime( PHOENIX_BUILD_CSS_DIR_PATH . '/main.css' ), 'all' );
+	wp_enqueue_style( 'main-css' );
+}
+
+add_action( 'wp_enqueue_scripts', 'phoenix_register_styles' );

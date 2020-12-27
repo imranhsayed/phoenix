@@ -40,23 +40,6 @@ function phoenix_setup_theme() {
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
 
-	/**
-	 * Switch default core markup for search form, comment form, comment-list, gallery, caption, script and style
-	 * to output valid HTML5.
-	 */
-	add_theme_support(
-		'html5',
-		[
-			'search-form',
-			'comment-form',
-			'comment-list',
-			'gallery',
-			'caption',
-			'script',
-			'style',
-		]
-	);
-
 	// Gutenberg theme support.
 
 	/**

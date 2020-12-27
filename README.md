@@ -1,5 +1,16 @@
 # Phoenix - WordPress Theme
-An Experimental block based Theme
+Phoenix is an experimental block based WordPress theme.
+
+## Features and Description
+
+1. It uses the Navigation block in the header.
+2. Front page block template contains
+- Hero section
+- Latest posts using Query Block
+- Sidebar containing Gallery, Social Links, Categories and Search Blocks.
+3. Single page, Single post and 404 block templates.
+
+All the sections are editable from WordPress Dashboard > Site Editor
 
 ## [Live Demo Site](https://phoenix.codeytek.com/)
 
@@ -15,3 +26,4 @@ An Experimental block based Theme
 2. Install the Gutenberg plugin.
 3. Enable the "Full Site Editing" experiment in the `Gutenberg` > `Experiments panel`.
 4. Activate the new theme from within `Appearance` > `Themes`.
+5. Enable navigation screen from within `Gutenberg` > `Experiments` > `Enable navigation screen`.

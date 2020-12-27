@@ -1,13 +1,12 @@
 {
-	"name": "aquila",
+	"name": "phoenix",
 	"version": "1.0.0",
-	"description": "Aquila theme packages",
+	"description": "Phoenix theme packages",
 	"main": "main.js",
 	"scripts": {
-		"prod": "cross-env NODE_ENV=production webpack --mode production --progress",
+		"build": "cross-env NODE_ENV=production webpack --mode production --progress",
 		"dev": "cross-env NODE_ENV=development webpack --watch --mode development --progress",
 		"clean": "rm -rf build/*",
-		"svg": "svgr -d src/js/icons src/icons",
 		"lint": "eslint src/js/*",
 		"lint:fix": "eslint --fix src/js/*",
 		"lint-css": "stylelint 'src/sass/**/*.scss'",

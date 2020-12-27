@@ -14,7 +14,6 @@
 	}
 }
 
-
 .has-text-color {
 	&.has-black-color {
 		a {
@@ -55,5 +54,13 @@
 		&:hover {
 			color: $color__link-hover;
 		}
+	}
+}
+
+.wp-block-search {
+	.wp-block-search__input {
+		height: auto;
+		margin: 0;
+		padding: 8px 16px;
 	}
 }

@@ -41,25 +41,6 @@ function phoenix_setup_theme() {
 	add_theme_support( 'automatic-feed-links' );
 
 	/**
-	 * Switch default core markup for search form, comment form, comment-list, gallery, caption, script and style
-	 * to output valid HTML5.
-	 */
-	add_theme_support(
-		'html5',
-		[
-			'search-form',
-			'comment-form',
-			'comment-list',
-			'gallery',
-			'caption',
-			'script',
-			'style',
-		]
-	);
-
-	// Gutenberg theme support.
-
-	/**
 	 * Some blocks in Gutenberg like tables, quotes, separator benefit from structural styles (margin, padding, border etc…)
 	 * They are applied visually only in the editor (back-end) but not on the front-end to avoid the risk of conflicts with the styles wanted in the theme.
 	 * If you want to display them on front to have a base to work with, in this case, you can add support for wp-block-styles, as done below.

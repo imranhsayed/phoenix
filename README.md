@@ -15,10 +15,10 @@ All the sections are editable from WordPress Dashboard > Site Editor
 ## [Live Demo Site](https://phoenix.codeytek.com/)
 
 ### Front End Demo
-![](demo/frontend-demo.gif)
+![](https://github.com/imranhsayed/phoenix/blob/main/demo/frontend-demo.gif)
 
 ### Backend End Demo
-![](demo/backend-demo.gif)
+![](https://github.com/imranhsayed/phoenix/blob/main/demo/backend-demo.gif)
 
 ## Instructions to Get Started
 

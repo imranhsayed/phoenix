@@ -5,12 +5,12 @@
  * @package phoenix
  */
 
-if ( ! defined( 'PHOENIX_BUILD_CSS_URI' ) ) {
-	define( 'PHOENIX_BUILD_CSS_URI', untrailingslashit( get_template_directory_uri() ) . '/assets/build/css' );
+if ( ! defined( 'PHOENIX_CSS_URI' ) ) {
+	define( 'PHOENIX_CSS_URI', untrailingslashit( get_template_directory_uri() ) . '/assets/css' );
 }
 
-if ( ! defined( 'PHOENIX_BUILD_CSS_DIR_PATH' ) ) {
-	define( 'PHOENIX_BUILD_CSS_DIR_PATH', untrailingslashit( get_template_directory() ) . '/assets/build/css' );
+if ( ! defined( 'PHOENIX_CSS_DIR_PATH' ) ) {
+	define( 'PHOENIX_CSS_DIR_PATH', untrailingslashit( get_template_directory() ) . '/assets/css' );
 }
 
 /**
@@ -123,7 +123,7 @@ add_action( 'after_setup_theme', 'phoenix_setup_theme' );
  * Register Styles.
  */
 function phoenix_register_styles() {
-	wp_register_style( 'main-css', PHOENIX_BUILD_CSS_URI . '/main.css', [], filemtime( PHOENIX_BUILD_CSS_DIR_PATH . '/main.css' ), 'all' );
+	wp_register_style( 'main-css', PHOENIX_CSS_URI . '/main.css', [], filemtime( PHOENIX_CSS_DIR_PATH . '/main.css' ), 'all' );
 	wp_enqueue_style( 'main-css' );
 }
 
